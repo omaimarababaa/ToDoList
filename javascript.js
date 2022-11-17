@@ -3,8 +3,7 @@ addAllNotes();
 //-----------ADD ALL NOTES FROM LOCAL STOREGE------------
 function addAllNotes() {
   allNotes = getItemFeomLocalS();
-   console.log(allNotes);
-    console.log(allNotes.length);
+
     if(allNotes){
   for (let k = 0; k < allNotes.length; k++) {
     console.log(allNotes[k]);
