@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Raleway:ital,wght@0,100;0,200;0,400;1,300&display=swap');
+body {
+  background-image: url(./image/keep.png);
+  background-size: cover;
+  text-align: -webkit-center;
+ 
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+ 
+}
+header {
+  text-align: center;
+  background-color: white;
+  color: rgb(221, 162, 51);
+  margin-top: 50px;
+}
+ul {
+  list-style-type: none;
+}
+input {
+  text-align: center;
+  margin: 20px;
+  width: 80%;
+  height: 40px;
+  box-shadow: 3px 3px #888888;
+  border-radius: 15%;
+}
+button {
+  background-color: orange;
+  border-radius: 10%;
+  border: 1px solid cadetblue;
+  padding: 7px 25px;
+  font-weight: bold;
+}
+button:hover{
+    opacity: 0.7;
+}
+.container {
+  background-color: white;
+  width: 40%;
+  height: 500px;
+  border: 1px solid gray;
+  box-shadow: 5px 10px #888888;
+  border-radius: 3%;
+
+}
+li{
+    width: 95%;
+    height: 40px;
+    font-size: 20px;
+    float: left;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+ul li:hover {
+    background: #ddd;
+    cursor: pointer;
+  }
+  .close {
+    padding-right:8px;
+    float: right;
+    font-size: 30px;
+  }
+  
+  .close:hover {
+   cursor: pointer;
+    color: white;
+  }
+  ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+   
+  }
